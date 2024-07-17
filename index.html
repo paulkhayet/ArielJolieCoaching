@@ -1,0 +1,101 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Ariel Jolie Coaching</title>
+    <link rel="icon" type="image/png" href="resources/images/favicon.png">
+    <link rel="stylesheet" href="/resources/css/styles.css">
+</head>
+
+<body>
+    <div class="navbar">
+        <div class="logo">
+            <img src="resources/images/logo.png" alt="Logo">
+        </div>
+        <div>
+            <button class="navbar-link active" onclick="navigateTo('index.html')">Home</button>
+            <button class="navbar-link" onclick="navigateTo('mymission.html')">My Mission</button>
+            <button class="navbar-link" onclick="navigateTo('contactme.html')">Contact Me</button>
+            <button class="navbar-link" onclick="navigateTo('bookonline.html')">Book Online</button>
+            <button class="navbar-link" onclick="navigateTo('books.html')">Book Recs</button>
+        </div>
+    </div>
+
+    <div id="home" class="tab-content">
+        <header>
+            <h1>John Doe</h1>
+            <p>Email: johndoe@example.com</p>
+            <p>Address: 1234 Elm Street, Hometown, Country</p>
+        </header>
+
+        <section>
+            <h2>Education</h2>
+            <div class="section-content">
+                <h3>University of Example</h3>
+                <p>Major: Computer Science</p>
+                <p>Dates: 2016 - 2020</p>
+            </div>
+        </section>
+
+        <section>
+            <h2>Work Experience</h2>
+            <div class="section-content">
+                <h3>Software Engineer</h3>
+                <p>Company: Tech Solutions</p>
+                <p>Timeframe: June 2020 - Present</p>
+                <ul>
+                    <li>Developed and maintained web applications.</li>
+                    <li>Collaborated with cross-functional teams.</li>
+                    <li>Implemented new features based on user feedback.</li>
+                </ul>
+            </div>
+            <div class="section-content">
+                <h3>Intern</h3>
+                <p>Company: Web Innovators</p>
+                <p>Timeframe: June 2019 - August 2019</p>
+                <ul>
+                    <li>Assisted in front-end development projects.</li>
+                    <li>Participated in code reviews and team meetings.</li>
+                    <li>Conducted research on new web technologies.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section>
+            <h2>Clubs/Teams</h2>
+            <div class="section-content">
+                <h3>Programming Club</h3>
+                <p>Role: President</p>
+                <p>Timeframe: 2018 - 2020</p>
+                <ul>
+                    <li>Organized weekly coding sessions.</li>
+                    <li>Led the club in inter-college coding competitions.</li>
+                    <li>Facilitated workshops on new programming languages.</li>
+                </ul>
+            </div>
+        </section>
+
+        <section>
+            <h2>Skills</h2>
+            <div class="section-content">
+                <ul>
+                    <li>JavaScript</li>
+                    <li>Python</li>
+                    <li>HTML & CSS</li>
+                    <li>React</li>
+                    <li>Node.js</li>
+                </ul>
+            </div>
+        </section>
+    </div>
+
+    <script>
+        function navigateTo(page) {
+            window.location.href = page;
+        }
+    </script>
+</body>
+
+</html>

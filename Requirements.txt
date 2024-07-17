@@ -1,0 +1,7 @@
+Basic Requirements:
+    - Copy all tabs from ariels webiste
+    - Call to actions to schedule consult call
+    - tabs are different .html files
+
+Advanced Requirements:
+    - A page to purchase programs
